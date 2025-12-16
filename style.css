@@ -1,6 +1,3 @@
 body {
-    background-image: url('img/rat0000-0214.gif');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background: url('img/rat0000-0214.gif') no-repeat center;
 }
