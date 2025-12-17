@@ -3,6 +3,52 @@ html, body {
     margin: 0;
 }
 
+@font-face {
+    font-family: "RubikGlitch";
+    src: url("fonts/RubikGlitch-Regular.ttf") format("truetype");
+    font-weight: 1200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lacquer-Regular";
+    src: url("fonts/Lacquer-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+.title {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    font-family: "RubikGlitch", sans-serif;
+    color:rgb(220, 0, 0);
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: black;
+}
+
+.title-name {
+    font-size: 2em;
+    line-height: 1;
+    white-space: nowrap;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.sentence {
+    font-size: 1em;
+    line-height: 1;
+}
+
+p {
+    font-family: "RubikGlitch";
+    color:rgb(220, 0, 0);
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: black;
+    font-size: 1.5em;
+}
+
 body {
     position: relative;
     background: url('img/rat0000-0214.gif') no-repeat center center fixed;
