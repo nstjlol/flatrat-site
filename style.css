@@ -48,6 +48,10 @@ html, body {
     .title-name {
         font-size: 3em; 
     }
+
+    .p {
+        margin-top: 1.5em;
+    }
 }
 
 .sentence {
