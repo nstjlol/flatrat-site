@@ -1,3 +1,24 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
-    background: url('img/rat0000-0214.gif') no-repeat center;
+    position: relative;
+    background: url('img/rat0000-0214.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
+
+body > * {
+    position: relative;
+    z-index: 1
 }
